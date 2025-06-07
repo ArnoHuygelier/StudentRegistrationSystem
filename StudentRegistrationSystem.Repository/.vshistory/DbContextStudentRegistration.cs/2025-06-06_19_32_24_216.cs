@@ -15,11 +15,11 @@ namespace StudentRegistrationSystem.Repository
             
         }
 
-        public DbSet<Student> Students { get; set; }
+        public DbSet<Student> students { get; set; }
 
-        public DbSet<Cursus> Cursus { get; set; }
+        public DbSet<Cursus> cursus { get; set; }
 
-        public DbSet<Inschrijving> Inschrijvingen { get; set; }
+        public DbSet<Inschrijving> inschrijvingen { get; set; }
 
         public DbSet<Docent> Docenten { get; set; }
     }

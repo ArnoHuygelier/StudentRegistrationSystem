@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using StudentRegistrationSystem.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,13 +13,5 @@ namespace StudentRegistrationSystem.Repository
         {
             
         }
-
-        public DbSet<Student> Students { get; set; }
-
-        public DbSet<Cursus> Cursus { get; set; }
-
-        public DbSet<Inschrijving> Inschrijvingen { get; set; }
-
-        public DbSet<Docent> Docenten { get; set; }
     }
 }
